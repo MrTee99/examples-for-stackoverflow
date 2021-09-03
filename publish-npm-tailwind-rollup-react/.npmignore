@@ -1,7 +1,12 @@
 ## the src folder
-src
+components
+styles
 .babelrc
 rollup.config.js
+postcss.config.js
+index.js
+tailwind.config.js
+yarn.lock
 ## node modules folder
 node_modules
 ## incase you have a git repositiory initiated

@@ -22,4 +22,4 @@ Install package: <code>npm i publish-npm-tailwind-rollup-react</code>
 
 Import to a project: <code>import { Hero } from "publish-npm-tailwind-rollup-react"</code>
 
-Result: The package does not include Tailwind CSS styles.
+Result: The package does not include Tailwind CSS styles by default. It works only if Tailwind UI is configured in Gatsby. But only in development mode. It won't work in production.
