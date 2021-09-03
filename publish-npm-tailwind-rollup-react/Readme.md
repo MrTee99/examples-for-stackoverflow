@@ -17,3 +17,9 @@ I'm also using @rollup/plugin-replace to make Rollup build for production. I con
 ## End result
 
 When running either <code>rollup -c</code> or <code>NODE_ENV=production rollup -c</code> in terminal then the output.js generated is 100+kb which is not ideal as it should be around 10kb per full project: [Tailwind perfomance] (https://tailwindcss.com/docs/optimizing-for-production)
+
+Install package: <code>npm i publish-npm-tailwind-rollup-react</code>
+
+Import to a project: <code>import { Hero } from "publish-npm-tailwind-rollup-react"</code>
+
+Result: The package does not include Tailwind CSS styles.
