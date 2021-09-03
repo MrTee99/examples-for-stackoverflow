@@ -3138,10 +3138,7 @@ function Hero() {
     href: "#"
   }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Workflow"), /*#__PURE__*/React__default.createElement("img", {
-    className: "h-8 w-auto sm:h-10",
-    src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-  })), /*#__PURE__*/React__default.createElement("div", {
+  }, "Workflow")), /*#__PURE__*/React__default.createElement("div", {
     className: "-mr-2 flex items-center md:hidden"
   }, /*#__PURE__*/React__default.createElement(Popover.Button, {
     className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3174,11 +3171,7 @@ function Hero() {
     className: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
   }, /*#__PURE__*/React__default.createElement("div", {
     className: "px-5 pt-4 flex items-center justify-between"
-  }, /*#__PURE__*/React__default.createElement("div", null, /*#__PURE__*/React__default.createElement("img", {
-    className: "h-8 w-auto",
-    src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
-    alt: ""
-  })), /*#__PURE__*/React__default.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", null), /*#__PURE__*/React__default.createElement("div", {
     className: "-mr-2"
   }, /*#__PURE__*/React__default.createElement(Popover.Button, {
     className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
@@ -3222,11 +3215,7 @@ function Hero() {
     className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
   }, "Live demo"))))))), /*#__PURE__*/React__default.createElement("div", {
     className: "lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
-  }, /*#__PURE__*/React__default.createElement("img", {
-    className: "h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full",
-    src: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
-    alt: ""
-  })));
+  }));
 }
 
 /* This example requires Tailwind CSS v2.0+ */
