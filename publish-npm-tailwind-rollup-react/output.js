@@ -1,4 +1,4 @@
-import * as React$1 from 'react';
+import * as React from 'react';
 import React__default, { Fragment, isValidElement, cloneElement, createElement, forwardRef, useLayoutEffect, useEffect, useState, createContext, useContext, useCallback, useRef, useMemo, useReducer } from 'react';
 import { createPortal } from 'react-dom';
 
@@ -2985,12 +2985,12 @@ Transition.Child = function Child(props) {
 Transition.Root = Transition;
 
 function AnnotationIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -2999,12 +2999,12 @@ function AnnotationIcon(props) {
 }
 
 function GlobeAltIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3013,12 +3013,12 @@ function GlobeAltIcon(props) {
 }
 
 function LightningBoltIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3027,12 +3027,12 @@ function LightningBoltIcon(props) {
 }
 
 function MenuIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3041,12 +3041,12 @@ function MenuIcon(props) {
 }
 
 function ScaleIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3055,12 +3055,12 @@ function ScaleIcon(props) {
 }
 
 function SearchIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3069,12 +3069,12 @@ function SearchIcon(props) {
 }
 
 function ShoppingBagIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3083,12 +3083,12 @@ function ShoppingBagIcon(props) {
 }
 
 function XIcon(props) {
-  return /*#__PURE__*/React$1.createElement("svg", Object.assign({
+  return /*#__PURE__*/React.createElement("svg", Object.assign({
     xmlns: "http://www.w3.org/2000/svg",
     fill: "none",
     viewBox: "0 0 24 24",
     stroke: "currentColor"
-  }, props), /*#__PURE__*/React$1.createElement("path", {
+  }, props), /*#__PURE__*/React.createElement("path", {
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 2,
@@ -3111,55 +3111,55 @@ const navigation$1 = [{
   href: '#'
 }];
 function Hero() {
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React__default.createElement("div", {
     className: "relative bg-white overflow-hidden"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "max-w-7xl mx-auto"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
-  }, /*#__PURE__*/React.createElement("svg", {
+  }, /*#__PURE__*/React__default.createElement("svg", {
     className: "hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2",
     fill: "currentColor",
     viewBox: "0 0 100 100",
     preserveAspectRatio: "none",
     "aria-hidden": "true"
-  }, /*#__PURE__*/React.createElement("polygon", {
+  }, /*#__PURE__*/React__default.createElement("polygon", {
     points: "50,0 100,0 50,100 0,100"
-  })), /*#__PURE__*/React.createElement(Popover, null, /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React__default.createElement(Popover, null, /*#__PURE__*/React__default.createElement("div", {
     className: "relative pt-6 px-4 sm:px-6 lg:px-8"
-  }, /*#__PURE__*/React.createElement("nav", {
+  }, /*#__PURE__*/React__default.createElement("nav", {
     className: "relative flex items-center justify-between sm:h-10 lg:justify-start",
     "aria-label": "Global"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "flex items-center justify-between w-full md:w-auto"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Workflow"), /*#__PURE__*/React.createElement("img", {
+  }, "Workflow"), /*#__PURE__*/React__default.createElement("img", {
     className: "h-8 w-auto sm:h-10",
     src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-  })), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React__default.createElement("div", {
     className: "-mr-2 flex items-center md:hidden"
-  }, /*#__PURE__*/React.createElement(Popover.Button, {
+  }, /*#__PURE__*/React__default.createElement(Popover.Button, {
     className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Open main menu"), /*#__PURE__*/React.createElement(MenuIcon, {
+  }, "Open main menu"), /*#__PURE__*/React__default.createElement(MenuIcon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
-  }))))), /*#__PURE__*/React.createElement("div", {
+  }))))), /*#__PURE__*/React__default.createElement("div", {
     className: "hidden md:block md:ml-10 md:pr-4 md:space-x-8"
-  }, navigation$1.map(item => /*#__PURE__*/React.createElement("a", {
+  }, navigation$1.map(item => /*#__PURE__*/React__default.createElement("a", {
     key: item.name,
     href: item.href,
     className: "font-medium text-gray-500 hover:text-gray-900"
-  }, item.name)), /*#__PURE__*/React.createElement("a", {
+  }, item.name)), /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "font-medium text-indigo-600 hover:text-indigo-500"
-  }, "Log in")))), /*#__PURE__*/React.createElement(Transition, {
+  }, "Log in")))), /*#__PURE__*/React__default.createElement(Transition, {
     as: Fragment,
     enter: "duration-150 ease-out",
     enterFrom: "opacity-0 scale-95",
@@ -3167,62 +3167,62 @@ function Hero() {
     leave: "duration-100 ease-in",
     leaveFrom: "opacity-100 scale-100",
     leaveTo: "opacity-0 scale-95"
-  }, /*#__PURE__*/React.createElement(Popover.Panel, {
+  }, /*#__PURE__*/React__default.createElement(Popover.Panel, {
     focus: true,
     className: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "px-5 pt-4 flex items-center justify-between"
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("div", null, /*#__PURE__*/React__default.createElement("img", {
     className: "h-8 w-auto",
     src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
     alt: ""
-  })), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React__default.createElement("div", {
     className: "-mr-2"
-  }, /*#__PURE__*/React.createElement(Popover.Button, {
+  }, /*#__PURE__*/React__default.createElement(Popover.Button, {
     className: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Close main menu"), /*#__PURE__*/React.createElement(XIcon, {
+  }, "Close main menu"), /*#__PURE__*/React__default.createElement(XIcon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
-  })))), /*#__PURE__*/React.createElement("div", {
+  })))), /*#__PURE__*/React__default.createElement("div", {
     className: "px-2 pt-2 pb-3 space-y-1"
-  }, navigation$1.map(item => /*#__PURE__*/React.createElement("a", {
+  }, navigation$1.map(item => /*#__PURE__*/React__default.createElement("a", {
     key: item.name,
     href: item.href,
     className: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-  }, item.name))), /*#__PURE__*/React.createElement("a", {
+  }, item.name))), /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
-  }, "Log in"))))), /*#__PURE__*/React.createElement("main", {
+  }, "Log in"))))), /*#__PURE__*/React__default.createElement("main", {
     className: "mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "sm:text-center lg:text-left"
-  }, /*#__PURE__*/React.createElement("h1", {
+  }, /*#__PURE__*/React__default.createElement("h1", {
     className: "text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "block xl:inline"
-  }, "Data to enrich your"), ' ', /*#__PURE__*/React.createElement("span", {
+  }, "Data to enrich your"), ' ', /*#__PURE__*/React__default.createElement("span", {
     className: "block text-indigo-600 xl:inline"
-  }, "online business")), /*#__PURE__*/React.createElement("p", {
+  }, "online business")), /*#__PURE__*/React__default.createElement("p", {
     className: "mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
-  }, "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."), /*#__PURE__*/React.createElement("div", {
+  }, "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."), /*#__PURE__*/React__default.createElement("div", {
     className: "mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "rounded-md shadow"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-  }, "Get started")), /*#__PURE__*/React.createElement("div", {
+  }, "Get started")), /*#__PURE__*/React__default.createElement("div", {
     className: "mt-3 sm:mt-0 sm:ml-3"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-  }, "Live demo"))))))), /*#__PURE__*/React.createElement("div", {
+  }, "Live demo"))))))), /*#__PURE__*/React__default.createElement("div", {
     className: "lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
-  }, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("img", {
     className: "h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full",
     src: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
     alt: ""
@@ -3248,33 +3248,33 @@ const features = [{
   icon: AnnotationIcon
 }];
 function Feature() {
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React__default.createElement("div", {
     className: "py-12 bg-white"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "lg:text-center"
-  }, /*#__PURE__*/React.createElement("h2", {
+  }, /*#__PURE__*/React__default.createElement("h2", {
     className: "text-base text-indigo-600 font-semibold tracking-wide uppercase"
-  }, "Transactions"), /*#__PURE__*/React.createElement("p", {
+  }, "Transactions"), /*#__PURE__*/React__default.createElement("p", {
     className: "mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-  }, "A better way to send money"), /*#__PURE__*/React.createElement("p", {
+  }, "A better way to send money"), /*#__PURE__*/React__default.createElement("p", {
     className: "mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"
-  }, "Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.")), /*#__PURE__*/React.createElement("div", {
+  }, "Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.")), /*#__PURE__*/React__default.createElement("div", {
     className: "mt-10"
-  }, /*#__PURE__*/React.createElement("dl", {
+  }, /*#__PURE__*/React__default.createElement("dl", {
     className: "space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"
-  }, features.map(feature => /*#__PURE__*/React.createElement("div", {
+  }, features.map(feature => /*#__PURE__*/React__default.createElement("div", {
     key: feature.name,
     className: "relative"
-  }, /*#__PURE__*/React.createElement("dt", null, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("dt", null, /*#__PURE__*/React__default.createElement("div", {
     className: "absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
-  }, /*#__PURE__*/React.createElement(feature.icon, {
+  }, /*#__PURE__*/React__default.createElement(feature.icon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
-  })), /*#__PURE__*/React.createElement("p", {
+  })), /*#__PURE__*/React__default.createElement("p", {
     className: "ml-16 text-lg leading-6 font-medium text-gray-900"
-  }, feature.name)), /*#__PURE__*/React.createElement("dd", {
+  }, feature.name)), /*#__PURE__*/React__default.createElement("dd", {
     className: "mt-2 ml-16 text-base text-gray-500"
   }, feature.description)))))));
 }
@@ -3477,16 +3477,16 @@ function classNames(...classes) {
 
 function Navbar() {
   const [open, setOpen] = useState(false);
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React__default.createElement("div", {
     className: "bg-white"
-  }, /*#__PURE__*/React.createElement(Transition.Root, {
+  }, /*#__PURE__*/React__default.createElement(Transition.Root, {
     show: open,
     as: Fragment
-  }, /*#__PURE__*/React.createElement(Dialog, {
+  }, /*#__PURE__*/React__default.createElement(Dialog, {
     as: "div",
     className: "fixed inset-0 flex z-40 lg:hidden",
     onClose: setOpen
-  }, /*#__PURE__*/React.createElement(Transition.Child, {
+  }, /*#__PURE__*/React__default.createElement(Transition.Child, {
     as: Fragment,
     enter: "transition-opacity ease-linear duration-300",
     enterFrom: "opacity-0",
@@ -3494,9 +3494,9 @@ function Navbar() {
     leave: "transition-opacity ease-linear duration-300",
     leaveFrom: "opacity-100",
     leaveTo: "opacity-0"
-  }, /*#__PURE__*/React.createElement(Dialog.Overlay, {
+  }, /*#__PURE__*/React__default.createElement(Dialog.Overlay, {
     className: "fixed inset-0 bg-black bg-opacity-25"
-  })), /*#__PURE__*/React.createElement(Transition.Child, {
+  })), /*#__PURE__*/React__default.createElement(Transition.Child, {
     as: Fragment,
     enter: "transition ease-in-out duration-300 transform",
     enterFrom: "-translate-x-full",
@@ -3504,148 +3504,148 @@ function Navbar() {
     leave: "transition ease-in-out duration-300 transform",
     leaveFrom: "translate-x-0",
     leaveTo: "-translate-x-full"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "relative max-w-xs w-full bg-white shadow-xl pb-12 flex flex-col overflow-y-auto"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "px-4 pt-5 pb-2 flex"
-  }, /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/React__default.createElement("button", {
     type: "button",
     className: "-m-2 p-2 rounded-md inline-flex items-center justify-center text-gray-400",
     onClick: () => setOpen(false)
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Close menu"), /*#__PURE__*/React.createElement(XIcon, {
+  }, "Close menu"), /*#__PURE__*/React__default.createElement(XIcon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
-  }))), /*#__PURE__*/React.createElement(Tab.Group, {
+  }))), /*#__PURE__*/React__default.createElement(Tab.Group, {
     as: "div",
     className: "mt-2"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "border-b border-gray-200"
-  }, /*#__PURE__*/React.createElement(Tab.List, {
+  }, /*#__PURE__*/React__default.createElement(Tab.List, {
     className: "-mb-px flex px-4 space-x-8"
-  }, navigation.categories.map(category => /*#__PURE__*/React.createElement(Tab, {
+  }, navigation.categories.map(category => /*#__PURE__*/React__default.createElement(Tab, {
     key: category.name,
     className: ({
       selected
     }) => classNames(selected ? 'text-indigo-600 border-indigo-600' : 'text-gray-900 border-transparent', 'flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium')
-  }, category.name)))), /*#__PURE__*/React.createElement(Tab.Panels, {
+  }, category.name)))), /*#__PURE__*/React__default.createElement(Tab.Panels, {
     as: Fragment
-  }, navigation.categories.map(category => /*#__PURE__*/React.createElement(Tab.Panel, {
+  }, navigation.categories.map(category => /*#__PURE__*/React__default.createElement(Tab.Panel, {
     key: category.name,
     className: "pt-10 pb-8 px-4 space-y-10"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "grid grid-cols-2 gap-x-4"
-  }, category.featured.map(item => /*#__PURE__*/React.createElement("div", {
+  }, category.featured.map(item => /*#__PURE__*/React__default.createElement("div", {
     key: item.name,
     className: "group relative text-sm"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75"
-  }, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("img", {
     src: item.imageSrc,
     alt: item.imageAlt,
     className: "object-center object-cover"
-  })), /*#__PURE__*/React.createElement("a", {
+  })), /*#__PURE__*/React__default.createElement("a", {
     href: item.href,
     className: "mt-6 block font-medium text-gray-900"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "absolute z-10 inset-0",
     "aria-hidden": "true"
-  }), item.name), /*#__PURE__*/React.createElement("p", {
+  }), item.name), /*#__PURE__*/React__default.createElement("p", {
     "aria-hidden": "true",
     className: "mt-1"
-  }, "Shop now")))), category.sections.map(section => /*#__PURE__*/React.createElement("div", {
+  }, "Shop now")))), category.sections.map(section => /*#__PURE__*/React__default.createElement("div", {
     key: section.name
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React__default.createElement("p", {
     id: `${category.id}-${section.id}-heading-mobile`,
     className: "font-medium text-gray-900"
-  }, section.name), /*#__PURE__*/React.createElement("ul", {
+  }, section.name), /*#__PURE__*/React__default.createElement("ul", {
     role: "list",
     "aria-labelledby": `${category.id}-${section.id}-heading-mobile`,
     className: "mt-6 flex flex-col space-y-6"
-  }, section.items.map(item => /*#__PURE__*/React.createElement("li", {
+  }, section.items.map(item => /*#__PURE__*/React__default.createElement("li", {
     key: item.name,
     className: "flow-root"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: item.href,
     className: "-m-2 p-2 block text-gray-500"
-  }, item.name)))))))))), /*#__PURE__*/React.createElement("div", {
+  }, item.name)))))))))), /*#__PURE__*/React__default.createElement("div", {
     className: "border-t border-gray-200 py-6 px-4 space-y-6"
-  }, navigation.pages.map(page => /*#__PURE__*/React.createElement("div", {
+  }, navigation.pages.map(page => /*#__PURE__*/React__default.createElement("div", {
     key: page.name,
     className: "flow-root"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: page.href,
     className: "-m-2 p-2 block font-medium text-gray-900"
-  }, page.name)))), /*#__PURE__*/React.createElement("div", {
+  }, page.name)))), /*#__PURE__*/React__default.createElement("div", {
     className: "border-t border-gray-200 py-6 px-4 space-y-6"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "flow-root"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "-m-2 p-2 block font-medium text-gray-900"
-  }, "Sign in")), /*#__PURE__*/React.createElement("div", {
+  }, "Sign in")), /*#__PURE__*/React__default.createElement("div", {
     className: "flow-root"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "-m-2 p-2 block font-medium text-gray-900"
-  }, "Create account"))), /*#__PURE__*/React.createElement("div", {
+  }, "Create account"))), /*#__PURE__*/React__default.createElement("div", {
     className: "border-t border-gray-200 py-6 px-4"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "-m-2 p-2 flex items-center"
-  }, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("img", {
     src: "https://tailwindui.com/img/flags/flag-canada.svg",
     alt: "",
     className: "w-5 h-auto block flex-shrink-0"
-  }), /*#__PURE__*/React.createElement("span", {
+  }), /*#__PURE__*/React__default.createElement("span", {
     className: "ml-3 block text-base font-medium text-gray-900"
-  }, "CAD"), /*#__PURE__*/React.createElement("span", {
+  }, "CAD"), /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, ", change currency"))))))), /*#__PURE__*/React.createElement("header", {
+  }, ", change currency"))))))), /*#__PURE__*/React__default.createElement("header", {
     className: "relative bg-white"
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React__default.createElement("p", {
     className: "bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8"
-  }, "Get free delivery on orders over $100"), /*#__PURE__*/React.createElement("nav", {
+  }, "Get free delivery on orders over $100"), /*#__PURE__*/React__default.createElement("nav", {
     "aria-label": "Top",
     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "border-b border-gray-200"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "h-16 flex items-center"
-  }, /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/React__default.createElement("button", {
     type: "button",
     className: "bg-white p-2 rounded-md text-gray-400 lg:hidden",
     onClick: () => setOpen(true)
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Open menu"), /*#__PURE__*/React.createElement(MenuIcon, {
+  }, "Open menu"), /*#__PURE__*/React__default.createElement(MenuIcon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
-  })), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React__default.createElement("div", {
     className: "ml-4 flex lg:ml-0"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Workflow"), /*#__PURE__*/React.createElement("img", {
+  }, "Workflow"), /*#__PURE__*/React__default.createElement("img", {
     className: "h-8 w-auto",
     src: "https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600",
     alt: ""
-  }))), /*#__PURE__*/React.createElement(Popover.Group, {
+  }))), /*#__PURE__*/React__default.createElement(Popover.Group, {
     className: "hidden lg:ml-8 lg:block lg:self-stretch"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "h-full flex space-x-8"
-  }, navigation.categories.map(category => /*#__PURE__*/React.createElement(Popover, {
+  }, navigation.categories.map(category => /*#__PURE__*/React__default.createElement(Popover, {
     key: category.name,
     className: "flex"
   }, ({
     open
-  }) => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+  }) => /*#__PURE__*/React__default.createElement(React__default.Fragment, null, /*#__PURE__*/React__default.createElement("div", {
     className: "relative flex"
-  }, /*#__PURE__*/React.createElement(Popover.Button, {
+  }, /*#__PURE__*/React__default.createElement(Popover.Button, {
     className: classNames(open ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-700 hover:text-gray-800', 'relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px')
-  }, category.name)), /*#__PURE__*/React.createElement(Transition, {
+  }, category.name)), /*#__PURE__*/React__default.createElement(Transition, {
     as: Fragment,
     enter: "transition ease-out duration-200",
     enterFrom: "opacity-0",
@@ -3653,105 +3653,105 @@ function Navbar() {
     leave: "transition ease-in duration-150",
     leaveFrom: "opacity-100",
     leaveTo: "opacity-0"
-  }, /*#__PURE__*/React.createElement(Popover.Panel, {
+  }, /*#__PURE__*/React__default.createElement(Popover.Panel, {
     className: "absolute top-full inset-x-0 text-sm text-gray-500"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "absolute inset-0 top-1/2 bg-white shadow",
     "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React__default.createElement("div", {
     className: "relative bg-white"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "max-w-7xl mx-auto px-8"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "grid grid-cols-2 gap-y-10 gap-x-8 py-16"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "col-start-2 grid grid-cols-2 gap-x-8"
-  }, category.featured.map(item => /*#__PURE__*/React.createElement("div", {
+  }, category.featured.map(item => /*#__PURE__*/React__default.createElement("div", {
     key: item.name,
     className: "group relative text-base sm:text-sm"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75"
-  }, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("img", {
     src: item.imageSrc,
     alt: item.imageAlt,
     className: "object-center object-cover"
-  })), /*#__PURE__*/React.createElement("a", {
+  })), /*#__PURE__*/React__default.createElement("a", {
     href: item.href,
     className: "mt-6 block font-medium text-gray-900"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "absolute z-10 inset-0",
     "aria-hidden": "true"
-  }), item.name), /*#__PURE__*/React.createElement("p", {
+  }), item.name), /*#__PURE__*/React__default.createElement("p", {
     "aria-hidden": "true",
     className: "mt-1"
-  }, "Shop now")))), /*#__PURE__*/React.createElement("div", {
+  }, "Shop now")))), /*#__PURE__*/React__default.createElement("div", {
     className: "row-start-1 grid grid-cols-3 gap-y-10 gap-x-8 text-sm"
-  }, category.sections.map(section => /*#__PURE__*/React.createElement("div", {
+  }, category.sections.map(section => /*#__PURE__*/React__default.createElement("div", {
     key: section.name
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React__default.createElement("p", {
     id: `${section.name}-heading`,
     className: "font-medium text-gray-900"
-  }, section.name), /*#__PURE__*/React.createElement("ul", {
+  }, section.name), /*#__PURE__*/React__default.createElement("ul", {
     role: "list",
     "aria-labelledby": `${section.name}-heading`,
     className: "mt-6 space-y-6 sm:mt-4 sm:space-y-4"
-  }, section.items.map(item => /*#__PURE__*/React.createElement("li", {
+  }, section.items.map(item => /*#__PURE__*/React__default.createElement("li", {
     key: item.name,
     className: "flex"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: item.href,
     className: "hover:text-gray-800"
-  }, item.name))))))))))))))), navigation.pages.map(page => /*#__PURE__*/React.createElement("a", {
+  }, item.name))))))))))))))), navigation.pages.map(page => /*#__PURE__*/React__default.createElement("a", {
     key: page.name,
     href: page.href,
     className: "flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
-  }, page.name)))), /*#__PURE__*/React.createElement("div", {
+  }, page.name)))), /*#__PURE__*/React__default.createElement("div", {
     className: "ml-auto flex items-center"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default.createElement("div", {
     className: "hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "text-sm font-medium text-gray-700 hover:text-gray-800"
-  }, "Sign in"), /*#__PURE__*/React.createElement("span", {
+  }, "Sign in"), /*#__PURE__*/React__default.createElement("span", {
     className: "h-6 w-px bg-gray-200",
     "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("a", {
+  }), /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "text-sm font-medium text-gray-700 hover:text-gray-800"
-  }, "Create account")), /*#__PURE__*/React.createElement("div", {
+  }, "Create account")), /*#__PURE__*/React__default.createElement("div", {
     className: "hidden lg:ml-8 lg:flex"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "text-gray-700 hover:text-gray-800 flex items-center"
-  }, /*#__PURE__*/React.createElement("img", {
+  }, /*#__PURE__*/React__default.createElement("img", {
     src: "https://tailwindui.com/img/flags/flag-canada.svg",
     alt: "",
     className: "w-5 h-auto block flex-shrink-0"
-  }), /*#__PURE__*/React.createElement("span", {
+  }), /*#__PURE__*/React__default.createElement("span", {
     className: "ml-3 block text-sm font-medium"
-  }, "CAD"), /*#__PURE__*/React.createElement("span", {
+  }, "CAD"), /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, ", change currency"))), /*#__PURE__*/React.createElement("div", {
+  }, ", change currency"))), /*#__PURE__*/React__default.createElement("div", {
     className: "flex lg:ml-6"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "p-2 text-gray-400 hover:text-gray-500"
-  }, /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
-  }, "Search"), /*#__PURE__*/React.createElement(SearchIcon, {
+  }, "Search"), /*#__PURE__*/React__default.createElement(SearchIcon, {
     className: "w-6 h-6",
     "aria-hidden": "true"
-  }))), /*#__PURE__*/React.createElement("div", {
+  }))), /*#__PURE__*/React__default.createElement("div", {
     className: "ml-4 flow-root lg:ml-6"
-  }, /*#__PURE__*/React.createElement("a", {
+  }, /*#__PURE__*/React__default.createElement("a", {
     href: "#",
     className: "group -m-2 p-2 flex items-center"
-  }, /*#__PURE__*/React.createElement(ShoppingBagIcon, {
+  }, /*#__PURE__*/React__default.createElement(ShoppingBagIcon, {
     className: "flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500",
     "aria-hidden": "true"
-  }), /*#__PURE__*/React.createElement("span", {
+  }), /*#__PURE__*/React__default.createElement("span", {
     className: "ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800"
-  }, "0"), /*#__PURE__*/React.createElement("span", {
+  }, "0"), /*#__PURE__*/React__default.createElement("span", {
     className: "sr-only"
   }, "items in cart, view bag")))))))));
 }
